@@ -1,0 +1,10 @@
+# Install PyTorch with the CUDA wheel matching your system first (see RUNNING.md).
+torch==2.6.0
+torchvision==0.21.0
+numpy==1.26.4
+scipy==1.11.4
+Pillow==11.1.0
+ftfy==6.3.1
+regex==2023.10.3
+tqdm==4.67.1
+clip @ git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
