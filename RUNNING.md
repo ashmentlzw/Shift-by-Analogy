@@ -6,6 +6,9 @@ proxies, image-conditioned gate, joint objective, and SAM/AdamW optimization.
 All training starts from public OpenAI CLIP ViT-L/14. No separately trained
 CZSL model or fitted generative model is required.
 
+Pretrained checkpoints and matching support banks are available in
+[PRETRAINED.md](PRETRAINED.md). They can be evaluated without retraining.
+
 ## Environment
 
 Python 3.10; the reference environment uses PyTorch 2.6.0 / torchvision 0.21.0.
