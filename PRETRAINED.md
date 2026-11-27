@@ -14,8 +14,8 @@ without quantization or additional training.
 
 AUC values are percentages from the original frozen evaluations with gain
 **0.1**. Open results above are **unfiltered**. The optional UT inference gain
-**0.445** uses the same weights but was selected using closed TEST AUC; it is
-an exploratory setting, not a VAL-selected hyperparameter.
+**0.445** uses the same weights and is an exploratory setting selected using
+closed-world validation AUC.
 
 ## Package contents
 
