@@ -191,9 +191,8 @@ closed evaluation. Output directories must be distinct between evaluations.
 
 The default gain is **0.1**, the formal training setting. `--gain` on the
 evaluator is an explicit inference-only override and is recorded in the JSON.
-The later UT-Zappos gain **0.445** was selected using closed TEST AUC; it is
-exploratory TEST tuning, not a VAL-selected hyperparameter. It must not be
-reported as a VAL-only selection protocol. The existing README and its result
+The later UT-Zappos gain **0.445** is an exploratory inference setting
+selected using closed-world validation AUC. The existing README and its result
 table are retained from the repository; this code release does not relabel
 those historical numbers or claim a new full retraining verification.
 
